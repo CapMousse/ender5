@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: Home
 nav_order: 1
@@ -16,16 +13,16 @@ This website is not affiliated with Creality and is 100% community managed. To h
 
 ---
 
-- [User Manual]({% link docs/user-manual.md %})
-- [Specifications]({%link docs/specifications.md %})
-- Where to purchase
-- Troubleshooting
+- [User Manual]({% link pages/user-manual.md %})
+- [Specifications]({%link pages/specifications.md %})
+- [Where to purchase]({%link pages/where-to-buy.md %})
+- [Troubleshooting]({%link pages/troubleshooting.md %})
     - Bad adhesion
-- Setup & Maintenance
+- [Setup & Maintenance]({%link pages/setup-and-maintenance.md %})
     - Bed leveling
     - Update firmware
     - Extruder calibration
     - Linear advance
     - Cura profile
-- Replacements parts
-- Resources and Links
+- [Replacements parts]({%link pages/replacements-parts.md %})
+- [Resources and Links]({%link pages/resources-and-links.md %})

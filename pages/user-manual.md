@@ -5,7 +5,6 @@ nav_order: 2
 ---
 
 # User manual
-{: .no_toc}
 
 [PDF Link](/files/user-manual/user-manual.pdf)
 
