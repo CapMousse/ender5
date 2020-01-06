@@ -22,12 +22,13 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ender5.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: capitainemousse
 github_username:  CapMousse
-footer_content: "This website is distributed under the <a href=\"https://choosealicense.com/licenses/gpl-3.0/\">GNU GPL 3.0</a> license"
 
 # Build settings
 markdown: kramdown
-# theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
+# remote_theme: benbalter/retlab
+# plugins:
+#   - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

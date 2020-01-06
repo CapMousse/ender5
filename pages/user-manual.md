@@ -6,7 +6,7 @@ nav_order: 2
 
 # User manual
 
-[PDF Link](/files/user-manual/user-manual.pdf)
+Download the [PDF](/files/user-manual/user-manual.pdf)
 
 ![](/files/user-manual/user-manual-01.jpg)
 ![](/files/user-manual/user-manual-02.jpg)

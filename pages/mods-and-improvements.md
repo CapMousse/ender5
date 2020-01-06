@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Replacements parts
-nav_order: 7
+title: Mods and improvements
+nav_order: 8
 ---
 
-# Replacements parts
+# Mods and improvements
 
 ## Table of content
 {: .no_toc .text_delta}
