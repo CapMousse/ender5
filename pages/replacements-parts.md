@@ -5,9 +5,10 @@ nav_order: 7
 ---
 
 # Replacements parts
+{: .no_toc}
 
 ## Table of content
-{: .no_toc .text_delta}
+{: .no_toc .text-delta}
 
 1. TOC
 {:toc}

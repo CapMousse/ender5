@@ -8,10 +8,16 @@ nav_order: 6
 {: .no_toc }
 
 ## Table of content
-{: .no_toc .text_delta}
+{: .no_toc .text-delta}
 
 1. TOC
 {:toc}
+
+---
+
+## Maintenance flow chart
+
+![Maintenance flow chart](/files/troubleshooting/maintenance-flow-chart.jpg)
 
 ---
 

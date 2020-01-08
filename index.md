@@ -2,19 +2,19 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Ender 5 unofficial community documentation"
+description: "Ender 5/Ender 5 Pro/Ender 5 Plus unofficial community documentation"
 permalink: /
 ---
 
 # Welcome to the Ender 5 unofficial community documentation
 {: .fs-7 }
 
-If you need help to setup your Ender 5 or want to upgrade your printer, here is a list of great community ressources and parts to help you on the way.
+If you need help to setup your Ender 5 / Ender 5 Pro / Ender 5 Plus or want to upgrade your printer, here is a list of great community ressources and parts to help you on the way.
 {: .fs-6 .fw-300 }
 
 This website is not affiliated with Creality and is 100% community managed.
 
-[Join the Reddit community](https://reddit.com/r/ender5){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Help us on GitHub](https://github.com/CapMousse/ender5){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Join the Reddit community](https://reddit.com/r/ender5){: .btn .btn-primary .fs-5 .mb-4} [Help us on GitHub](https://github.com/CapMousse/ender5){: .btn .btn-outline .fs-5 .mb-4 } [Creality Website](https://www.creality.com/){: .btn .fs-5 .mb-4 }
 
 ---
 
@@ -22,6 +22,9 @@ This website is not affiliated with Creality and is 100% community managed.
 
 - [User Manual]({% link pages/user-manual.md %})
 - [Specifications]({%link pages/specifications.md %})
+    - [Ender 5]({%link pages/specifications.md %}#ender-5)
+    - [Ender 5 Pro]({%link pages/specifications.md %}#ender-5-pro)
+    - [Ender 5 Plus]({%link pages/specifications.md %}#ender-5-plus)
 - [Where to purchase]({%link pages/where-to-buy.md %})
 - [Maintenance]({%link pages/maintenance.md %})
     - [Update firmware]({%link pages/maintenance.md %}#update-firmware)

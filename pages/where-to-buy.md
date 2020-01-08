@@ -9,7 +9,7 @@ description: Where to buy the Ender 5
 {: .no_toc }
 
 ## Table of content
-{: .no_toc .text_delta }
+{: .no_toc .text-delta}
 
 1. TOC
 {:toc}

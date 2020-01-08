@@ -7,7 +7,7 @@ nav_order: 5
 # Maintenance
 {: .no_toc}
 
-## Table of contents
+## Table of content
 {: .no_toc .text-delta}
 
 1. TOC
