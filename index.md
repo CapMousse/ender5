@@ -34,6 +34,8 @@ This website is not affiliated with Creality and is 100% community managed.
 - [Troubleshooting]({%link pages/troubleshooting.md %})
     - [Bad adhesion]({%link pages/troubleshooting.md %}#bad-adhesion)
     - [Warped bed]({%link pages/troubleshooting.md %}#warped-bed)
+    - [Squashed print]({%link pages/troubleshooting.md %}#squashed-print)
+    - [Bad origin]({%link pages/troubleshooting.md %}#bad-origin)
 - [Replacements parts]({%link pages/replacements-parts.md %})
 - [Mods and improvements]({%link pages/mods-and-improvements.md %})
     - [Printable mods]({%link pages/mods-and-improvements.md %}#printable-mods)

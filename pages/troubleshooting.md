@@ -40,3 +40,61 @@ It is common for printers of this price range to get a slightly warped bed. But 
 
 
 ---
+
+## Squashed print
+
+Some Ender 5 come with a new Z Axis lead screw with a step per milimeters of 800 instead of 400. If your firmware still use 400 step/mm, all print will look squased and with half the z height.
+
+### GCode only
+{: .no_toc }
+
+You can easily update the printed settings by sending gocde : `M92 Z800`
+
+### Marlin 2.0.X and Marlin 1.1.X
+{: .no_toc }
+
+In the `Configuration.h` file, edit the `DEFAULT_AXIS_STEPS_PER_UNIT` instruction:
+
+```
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }
+```
+
+### TH3D
+{: .no_toc }
+
+In the `Configuration.h` file, uncomment the line 422:
+
+```
+#define ENDER5_NEW_LEADSCREW
+```
+
+---
+
+## Bad origin
+
+If after a firmware upgrade (Marlin, TH3D, ...) your new origin position is the oposite of the endstop and you want to fix this issue, you will need to edit the configuration file and reflash the printer.
+
+### Marlin 1.1.X and 2.0.X
+{: .no_toc }
+
+In the file `Configuration.h`, you will need to edit the block defining the endstop position to use `XMIN` and `YMIN`:
+
+```
+#define USE_XMIN_PLUG
+#define USE_YMIN_PLUG
+#define USE_ZMIN_PLUG
+//#define USE_XMAX_PLUG
+//#define USE_YMAX_PLUG
+//#define USE_ZMAX_PLUG
+```
+
+### TH3D
+{: .no_toc }
+
+In the file `Configuration_backend.h` change the lines 2983 to 2985 to use `XMIN` and `YMIN`
+
+```
+#define USE_XMIN_PLUG
+#define USE_YMIN_PLUG
+#define USE_ZMIN_PLUG
+```
