@@ -77,24 +77,52 @@ If after a firmware upgrade (Marlin, TH3D, ...) your new origin position is the 
 ### Marlin 1.1.X and 2.0.X
 {: .no_toc }
 
-In the file `Configuration.h`, you will need to edit the block defining the endstop position to use `XMIN` and `YMIN`:
+In the file `Configuration.h`, lines 506 to 508, change the endstop position to use `XMIN` and `YMIN`:
 
-```
+```c
 #define USE_XMIN_PLUG
 #define USE_YMIN_PLUG
 #define USE_ZMIN_PLUG
-//#define USE_XMAX_PLUG
-//#define USE_YMAX_PLUG
-//#define USE_ZMAX_PLUG
+```
+
+You will need to disable steppers invert from lines 847 to 849:
+
+```c
+#define INVERT_X_DIR false
+#define INVERT_Y_DIR false
+#define INVERT_Z_DIR true
+```
+
+And finally you need to edit the correct home direction from lines 873 to 871:
+
+```c
+#define X_HOME_DIR -1
+#define Y_HOME_DIR -1
+#define Z_HOME_DIR -1
 ```
 
 ### TH3D
 {: .no_toc }
 
-In the file `Configuration_backend.h` change the lines 2983 to 2985 to use `XMIN` and `YMIN`
+In the file `Configuration_backend.h` change the lines 2983 to 2985 to use `XMIN` and `YMIN`:
 
-```
+```c
 #define USE_XMIN_PLUG
 #define USE_YMIN_PLUG
 #define USE_ZMIN_PLUG
+```
+
+In the same file, lines 2000 and 2001, change steppers invertion to false:
+
+```c
+#define INVERT_X_DIR false
+#define INVERT_Y_DIR false
+```
+
+You will also need to setup the home correct home directions from lines 3017 to 3019
+
+```c
+#define X_HOME_DIR -1
+#define Y_HOME_DIR -1
+#define Z_HOME_DIR -1
 ```
