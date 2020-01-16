@@ -13,6 +13,8 @@ nav_order: 8
 1. TOC
 {:toc}
 
+---
+
 ## Printable mods
 
 Many parts from the Ender 3 or the CR 10 can be used on the Ender 5. Don't be surprised if the listing include anything from theses printers
@@ -43,3 +45,22 @@ Many parts from the Ender 3 or the CR 10 can be used on the Ender 5. Don't be su
 
 - [Silent auto home](https://www.thingiverse.com/thing:3349425)
 - [Spool clamp](https://www.thingiverse.com/thing:3478552)
+
+---
+
+## Improvements
+
+### Use 100% of the printable area
+
+By default, Ender 3 and Ender 5 (Pro) have a X length and Y length of 220mm but it can go to 235mm for each axis.
+
+To change those maximums, you will need to edit your firmware.
+
+- *Marlin 1.1.X/2*: in the `Configuration.h` file, update the lines 878 to 879
+- *TH3D*: in the `Configuration_backend.h` file, update the lines 2050 and 2051
+
+
+```
+#define X_BED_SIZE 235
+#define Y_BED_SIZE 235
+```
